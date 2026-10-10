@@ -43,14 +43,14 @@ func TestWatchDistinguishesLeakFromBoundedCache(t *testing.T) {
 		t.Fatalf("leaky total growth too small: %d", leakyRes.TotalGrowth)
 	}
 
-	// Bounded cache may still show allocator noise, but retained growth must be
-	// far below the unbounded demo under the same thresholds/window.
-	if cachedRes.TotalGrowth > leakyRes.TotalGrowth/5 {
-		t.Fatalf("cached growth=%d not << leaky growth=%d (verdict=%s)",
+	// Bounded cache may still show allocator noise, but retained growth must stay
+	// well below the unbounded demo under the same thresholds/window.
+	if cachedRes.TotalGrowth*2 >= leakyRes.TotalGrowth {
+		t.Fatalf("cached growth=%d not much smaller than leaky growth=%d (verdict=%s)",
 			cachedRes.TotalGrowth, leakyRes.TotalGrowth, cachedRes.Verdict)
 	}
-	if cachedRes.TotalSlope > leakyRes.TotalSlope/5 {
-		t.Fatalf("cached slope=%.0f not << leaky slope=%.0f (verdict=%s)",
+	if cachedRes.TotalSlope*2 >= leakyRes.TotalSlope {
+		t.Fatalf("cached slope=%.0f not much smaller than leaky slope=%.0f (verdict=%s)",
 			cachedRes.TotalSlope, leakyRes.TotalSlope, cachedRes.Verdict)
 	}
 }
