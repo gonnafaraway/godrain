@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="160" viewBox="0 0 720 160" role="img" aria-label="godrain">
+  <defs>
+    <linearGradient id="drop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5EEAD4"/>
+      <stop offset="100%" stop-color="#14B8A6"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path fill="url(#drop)" d="M72 28c18 28 34 48 34 68a34 34 0 1 1-68 0c0-20 16-40 34-68z"/>
+    <circle cx="72" cy="96" r="10" fill="#042F2E" fill-opacity=".55"/>
+    <text x="130" y="108" fill="#F8FAFC" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-2">godrain</text>
+  </g>
+</svg>

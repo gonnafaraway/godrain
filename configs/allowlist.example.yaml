@@ -1,0 +1,6 @@
+# Patterns match allocation stack frames (function name or file path).
+# Plain strings are substring matches; glob wildcards (* ?) are also supported.
+patterns:
+  - "*/cache/*"
+  - "lru."
+  - "github.com/example/myapp/internal/warmup"

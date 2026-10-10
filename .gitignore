@@ -1,0 +1,12 @@
+/godrain
+/godrain.exe
+*.exe
+*.test
+*.out
+/dist/
+.idea/
+*.pb.gz
+testdata/leaky/leaky
+testdata/leaky/leaky.exe
+testdata/cached/cached
+testdata/cached/cached.exe
