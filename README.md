@@ -13,9 +13,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/gonnafaraway/godrain/actions/workflows/ci.yml"><img src="https://github.com/gonnafaraway/godrain/actions/workflows/ci.yml/badge.svg" alt="CI"/></a>
-  <a href="https://pkg.go.dev/github.com/gonnafaraway/godrain"><img src="https://pkg.go.dev/badge/github.com/gonnafaraway/godrain.svg" alt="Go Reference"/></a>
-  <a href="https://github.com/gonnafaraway/godrain/releases"><img src="https://img.shields.io/github/v/release/gonnafaraway/godrain?include_prereleases" alt="Release"/></a>
+  <a href="https://github.com/gonnafaraway/godrain/actions/workflows/ci.yml"><img src="https://github.com/gonnafaraway/godrain/actions/workflows/ci.yml/badge.svg?branch=main" alt="CI"/></a>
+  <a href="https://pkg.go.dev/github.com/gonnafaraway/godrain/cmd/godrain"><img src="https://pkg.go.dev/badge/github.com/gonnafaraway/godrain/cmd/godrain.svg" alt="Go Reference"/></a>
+  <a href="https://github.com/gonnafaraway/godrain/releases/tag/v0.1.0"><img src="https://img.shields.io/github/v/release/gonnafaraway/godrain?display_name=tag&sort=semver" alt="Release"/></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"/></a>
 </p>
 
